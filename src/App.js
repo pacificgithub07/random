@@ -1,5 +1,6 @@
 import {Routes, Route } from "react-router-dom";
 import './App.css';
+///ifjsalfjasl;d
 // import Sidenav from "./component/Sidenav/Sidenav";
 import Uppernav from "./component/Uppernav/Uppernav";
 import Notesone from "./page/Notes/Notesone/Notesone";
