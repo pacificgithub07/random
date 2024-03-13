@@ -1,0 +1,109 @@
+:root{
+    /* --blue:rgba(70, 21, 232, 0.899); */
+    --white:#ffff;
+    --blur:rgba(158, 202, 227, 0.722);
+}
+body{
+   background-color: #ffff;
+}
+a{
+    text-decoration: none
+}
+.second-main{
+    background-color: var(--blur);
+}
+.second-main-part{
+    display: flex;
+}
+.second-main-part-left{
+    height: 900px;
+    width: 900px;
+}
+.second-text{
+    position: relative;
+    top: 11%;
+    left: 18%;
+}
+.notesheader-semester{
+    position: relative;
+    top: 14%;
+    left: 15%;
+    z-index: 2;
+}
+.second-semester-detail{
+ overflow-y: scroll;
+ height: 700px;
+ width: 700px;
+position: relative;
+top: 10%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+/* .second-semester-detail::-webkit-scrollbar{
+    width: 15px;
+}
+.second-semester-detail::-webkit-scrollbar-track{
+    background: #d1e5;
+}
+.second-semester-detail::-webkit-slider-thumb{
+    background-color: red;
+
+} */
+.second-semester-detil-first-year{
+  height: 200px;   
+  width: 600px;
+  margin-top: 80px;
+  display: flex;
+  gap: 100px;
+
+}
+.second-semester-detatil-first{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+.second-semester-detatil-Second{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 25px;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+.second-semester-detil-second-year{
+    display:flex;
+        gap: 100px;
+}
+.second-semester-detil-third-year{
+    display: flex;
+    gap: 100px;
+}
+.second-semester-detil-forth-year{
+    display: flex;
+    gap: 100px;
+}
+.second-main-part-right{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    height: 800px;
+    width: 800px;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    margin-top: 110px;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+

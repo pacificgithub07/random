@@ -1,0 +1,63 @@
+:root{
+    --blue:rgba(70, 21, 232, 0.899);
+    --white:#ffff;
+}
+
+.sidemainnav{
+  height: 1000px;
+  width: 100px;
+  background-color: var(--blue);
+  position: fixed;
+}
+.insidemain{
+    display: flex;
+     flex-direction: column;
+     gap: 20px;
+     position: relative;
+     top: 10%;
+     left: 10%;
+     list-style: none;
+}
+
+.navbutton1{
+    height: 75px;
+    width: 75px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton2{
+    height: 75px;
+    width: 75px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.navbutton3{
+    height: 75px;
+    width: 75px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton4{
+    height: 70px;
+    width: 70px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton5{
+    height: 70px;
+    width: 70px;
+    background-color: var(--white);
+    border-radius: 50%;
+}
